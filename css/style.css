@@ -1,7 +1,7 @@
 :root
 {
-    --primario:#bd81h3;
-    --primarioOscuri:#1b475d;
+    --primario:#1273AE;
+    --primarioOscuri:#24607E;
     --secundario:#ffce00;
     --secundarioOscuro:#e9bb02;
     --blanco:#fff;
@@ -9,4 +9,68 @@
 
     --fuentePrincipal: 'Staatliches', cursive;
 }
+
+html
+{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after 
+{
+    box-sizing: inherit;
+}
+
+body
+{
+    background-color: var(--primario);
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+p
+{
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--blanco);
+}
+
+a
+{
+    text-decoration: none;
+}
+
+img
+{
+    max-width: 100%;
+}
+
+.contenedor
+{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+h1,h2,h3
+{
+    text-align: center;
+    color: var(--secundario);
+    font-family: var(--fuentePrincipal);
+}
+
+h1
+{
+    font-size: 4rem;
+}
+
+h2
+{
+    font-size: 3.2rem;
+}
+
+h3
+{
+    font-size: 2.4rem;
+}
+
 
