@@ -163,6 +163,36 @@ h3
     margin: 1rem 0;
 }
 
+/* Grafico */
+.producto__grafico
+{
+    min-height: 30rem;
+    grid-column: 1 / 3;
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+
+.producto__grafico--camisa
+{
+    
+    background-image: url(../img/grafico1.jpg);
+    grid-row: 2 / 3;
+}
+
+.producto__grafico--node
+{
+    background-image: url(../img/grafico2.jpg);
+    grid-row: 8 / 9;
+}
+
+@media (min-width: 768px) 
+{
+    .producto__grafico--node
+    {
+        grid-column: 2 / 4;
+        grid-row: 5 / 6;
+    } 
+}
 
 /* Footer */
 .footer
@@ -178,7 +208,6 @@ h3
     font-family: var(--fuentePrincipal);
     font-size: 2.2rem;
 }
-
 
 
 
