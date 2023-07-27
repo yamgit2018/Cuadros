@@ -233,6 +233,35 @@ h3
     } 
 }
 
+.bloques
+{
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+}
+
+@media (min-width: 768px) 
+{
+    .bloques
+    {
+        grid-template-columns: repeat(4 , 1fr);
+    } 
+}
+
+.bloque
+{
+    text-align: center;
+}
+
+.bloque__titulo
+{
+    margin: 0;
+}
+
+.bloque__imagen
+{
+    width: 100%;
+    /* margin: 0; */
+}
 
 /* Footer */
 .footer
