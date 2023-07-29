@@ -217,10 +217,11 @@ h3
 
 .nosotros__imagen
 {
-    /* background-image: url(../img/nosotros.jpg);
+    background-image: url(../img/nosotros.jpg);
     min-height: 50rem;
     background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: cover;
+    background-position: center;
     grid-row: 1/2;
     width: 100%;
 }
