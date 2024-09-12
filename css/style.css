@@ -6,6 +6,7 @@
     --secundarioOscuro:#e9bb02;
     --blanco:#fff;
     --negro:#000;
+    --rojoOscuro: ##331709;
 
     --fuentePrincipal: 'Staatliches', cursive;
 }
@@ -149,15 +150,16 @@ h3
     padding: 1rem;
 }
 
-.producto__nombre, .producto__precio
+.producto__nombre
 {
     font-size: 3.5rem;
 }
 
-/* .producto__precio
+.producto__precio
 {
-    font-size: 4rem;
-} */
+    color: var(--red);
+    font-size: 2.5rem;
+}
 
 .producto__nombre, .producto__precio
 {
