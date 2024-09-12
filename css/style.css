@@ -247,7 +247,27 @@ h3
     text-align: justify;
 }
 
-.bloques
+@media (min-width: 768px) 
+{
+    .dispositivo
+    {
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+    }
+    
+}
+
+
+.dispositivo__contenido
+{
+
+}
+
+.dispositivo__imagen
+{
+
+}
+/* .bloques
 {
  display: grid;
  grid-template-columns: repeat(2, 1fr);
@@ -270,7 +290,7 @@ h3
 {
     margin: 0;
 }
-
+ */
 
 /* .bloque__imagen
 {
