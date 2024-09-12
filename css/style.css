@@ -253,14 +253,15 @@ h3
     {
         display: grid;
         grid-template-columns: repeat(2,auto);
+        gap: 3rem;
     }
     
 }
 
 
-.dispositivo__contenido
+.dispositivo__contenido p
 {
-
+    text-align: justify;
 }
 
 .dispositivo__imagen
