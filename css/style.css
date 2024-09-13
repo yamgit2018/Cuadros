@@ -79,6 +79,12 @@ h3
     font-size: 2.4rem;
 }
 
+.no_margin
+{
+    margin: 0;
+}
+
+
 
 
 .header__logo img
@@ -217,6 +223,10 @@ h3
 {
     text-align: justify;
 }
+
+
+
+/* Dispositivos */
 
 @media (min-width: 768px) 
 {
